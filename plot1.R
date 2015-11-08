@@ -16,8 +16,8 @@ subData<-data[which(data$Date=="1/2/2007" | data$Date=="2/2/2007"),]
 
 ##If the above takes too much time, the data can be loaded into R by using MySQL:
 #library("RMySQL")
-#myPassword<-"kissa13"
-#dbName<-"householdPowerConsumption"
+#myPassword<-"myPassword"
+#dbName<-"myDatabaseName"
 #hostName<-"localhost"
 #db<-dbConnect(MySQL(),db=dbName,host=hostName,password=myPassword)
 ##Read the rows in which the field Date equals to given dates from a table called householdPowerConsumption. 
